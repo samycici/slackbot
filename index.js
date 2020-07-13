@@ -40,6 +40,7 @@ function handleMessage(message) {
     }
 }
 
+// Run Tests
 function runSmoke() {
     axios.post(process.env.WORKFLOW_URL)
       .then(res => {       
