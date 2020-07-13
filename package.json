@@ -1,0 +1,25 @@
+{
+  "name": "slackbot",
+  "version": "1.0.0",
+  "description": "A simple Slackbot to run a circleci workflow from a url.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samycici/slackbot.git"
+  },
+  "author": "Samanta Cicilia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samycici/slackbot/issues"
+  },
+  "homepage": "https://github.com/samycici/slackbot#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4",
+    "slackbots": "^1.2.0"
+  }
+}
